@@ -20,8 +20,3 @@ jobs:
           REMOTE_HOST: ${{ secrets.HOST_DNS }}
           REMOTE_USER: ${{ secrets.USERNAME }}
           TARGET: "/home/ubuntu/cloud"
-        
-          run: |
-               touch test.txt
-               mkdir testing
-        
